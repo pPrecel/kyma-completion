@@ -2,7 +2,17 @@
 
 ![gif](kyma-completion.gif)
 
-## Installation
+## Fish installation
+
+1. Run command:
+
+  ```bash
+    fisher install pPrecel/kyma-completion
+  ```
+
+  >For manual installation put the `conf.d/kyma-completions.fish` file in the `$__fish_config_dir/conf.d` folder.
+
+## Zsh installation
 
 1. Run command:
 
