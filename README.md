@@ -1,20 +1,20 @@
-# kyma-zsh
-![](kyma-zsh.gif)
+# kyma-completion
 
+![gif](kyma-completion.gif)
 
 ## Installation
 
-1. Run command: 
-``` bash
-  git clone https://github.com/pPrecel/kyma-zsh && cp -r "kyma-zsh" "$ZSH/custom/plugins" && rm -rf "kyma-zsh"
-```
+1. Run command:
 
-2. Edit your `.zshrc` file and add the `kyma-zsh` to the `plugins` section
+  ``` bash
+    git clone https://github.com/pPrecel/kyma-completion && cp -r "kyma-completion" "$ZSH/custom/plugins" && rm -rf "kyma-completion"
+  ```
 
-Like this: 
-```diff
-plugins=(
-  # ... your other plugins
-+ kyma-zsh
-)
-```
+2. Open the `.zshrc` file and add the `kyma-completion` to the `plugins` section:
+
+  ```diff
+  plugins=(
+    # ... your other plugins
+  + kyma-completion
+  )
+  ```
